@@ -1,0 +1,35 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(var(--gridSize), 40px);
+    gap: 0px;
+  }
+  
+  .cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .highlight {
+    background-color: rgba(11, 165, 11, 0.637); 
+  }
+
+  button, button:hover {
+    margin-top: 25px;
+    border-radius: 10px;
+    border-width: 1px;
+    text-align: center;
+    font-family :Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px
+  }
+
+  button:hover {
+    cursor: pointer;
+    box-shadow: 2px 3px 4px;
+  }
+  

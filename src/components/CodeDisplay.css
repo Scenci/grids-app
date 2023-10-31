@@ -1,0 +1,11 @@
+.code-display {
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    background-color: #282c34;
+    padding: 20px;
+    overflow-y: auto;
+    height: 90vh;
+    border-left: 1px solid #ddd;
+    white-space: pre-wrap;
+    justify-content: left;
+}
